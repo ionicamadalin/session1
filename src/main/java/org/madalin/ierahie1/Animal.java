@@ -11,7 +11,7 @@ public abstract class Animal {
         
         protected void mananca(){
                 
-                System.out.println("Toate animalele pot manca");
+                 System.out.println("Toate animalele pot manca");
                 
         }
         }
