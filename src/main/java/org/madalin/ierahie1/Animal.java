@@ -21,6 +21,8 @@ public abstract class Animal {
         Mamifer m1 = new Mamifer();
         Elefant e1 = new Elefant();
         Leu l1 = new Leu();
+        Reptila r1= new Reptila();
+        Crocodil c1= new Crocodil();
         m1.seReproduce();
         m1.mananca();
         e1.mananca();
@@ -30,6 +32,11 @@ public abstract class Animal {
 
         l1.atacaAnimale();
         l1.seReproduce(); // deci leul a mostenit toate comportamentele mamiferelor, iar la randul sau mamiferul a mostenit toate comportamentele animalelor
+
+        r1.faceCeva();
+        c1.atacaOameni();
+
+
     }
 
 }
