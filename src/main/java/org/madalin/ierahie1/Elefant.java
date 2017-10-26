@@ -2,10 +2,13 @@ package org.madalin.ierahie1;
 
 public class Elefant extends Mamifer {
 
-    String trompa;
 
-    public void aruncaApa(){
+    public Elefant(int varsta, Sex sex) {
+        super(TipMancare.IARBA, 4, varsta, sex);
+    }
 
-        System.out.println("Elefantul arunca apa cu trompa");
+
+    public TipVedere tipVedere() {
+        return TipVedere.LATERALA;
     }
 }

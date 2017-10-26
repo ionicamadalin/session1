@@ -2,11 +2,27 @@ package org.madalin.ierahie1;
 
 public class Crocodil extends Reptila {
 
-    int lungime;
+    private int lungime;
 
-    public void atacaOameni(){
+    public Crocodil(int lungime,  int varsta) {
+        super(true, TipMancare.CARNE, 4, varsta);
+        this.lungime=lungime;
+    }
 
-        System.out.println("Crocodilul ataca oameni");
 
+
+    public int getLungime() {
+        return lungime;
+    }
+
+    public void setLungime(int lungime) {
+        this.lungime = lungime;
+    }
+
+    @Override
+    public String toString() {
+        return "Crocodil{" +
+                "lungime=" + lungime +
+                '}';
     }
 }

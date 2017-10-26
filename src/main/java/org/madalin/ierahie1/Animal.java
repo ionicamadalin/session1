@@ -1,42 +1,33 @@
 package org.madalin.ierahie1;
 
-import java.util.StringTokenizer;
-
 public abstract class Animal {
+    // ce manaca un animal (iarba sau carne)
+    private TipMancare tipMancare;
 
-    int inaltime;
-    double varsta;
-    String denumire_stiintifica;
-    double greutate;
+    // numarul de picioare
+    private int nrPicioare;
 
+    private int varsta;
 
-    protected void mananca() {
+    //sexul
+    private Sex sex;
 
-        System.out.println("Toate animalele pot manca");
-
+    public Animal(TipMancare tipMancare, int nrPicioare, int varsta, Sex sex) {
+        this.tipMancare = tipMancare;
+        this.nrPicioare = nrPicioare;
+        this.varsta = varsta;
+        this.sex = sex;
     }
 
-    public static void main(String[] args) {
-
-        Mamifer m1 = new Mamifer();
-        Elefant e1 = new Elefant();
-        Leu l1 = new Leu();
-        Reptila r1= new Reptila();
-        Crocodil c1= new Crocodil();
-        m1.seReproduce();
-        m1.mananca();
-        e1.mananca();
-        e1.seReproduce();
-        e1.aruncaApa();
-        // m1.aruncaApa(); // am doar ca sa vad ca nu se poate...deoarece un elefant poate face tot ceea ce face mamifer, dar nu mamifer nu poate face tot ceea ce face un elefent
-
-        l1.atacaAnimale();
-        l1.seReproduce(); // deci leul a mostenit toate comportamentele mamiferelor, iar la randul sau mamiferul a mostenit toate comportamentele animalelor
-
-        r1.faceCeva();
-        c1.atacaOameni();
 
 
+    public final boolean seReproduce(){
+        return this.sex!=Sex.A;
     }
 
+    public final boolean esteCarnivor(){
+        return tipMancare==TipMancare.CARNE;
+    }
+
+    public abstract TipVedere tipVedere();
 }

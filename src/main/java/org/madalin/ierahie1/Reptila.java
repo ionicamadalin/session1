@@ -1,13 +1,21 @@
 package org.madalin.ierahie1;
 
-public class Reptila extends Animal {
-    String sangeRece;
+public abstract class Reptila extends Animal {
 
-    public void setSangeRece(String sangeRece) {
-        this.sangeRece = sangeRece;
+    private final boolean coada;
+
+
+    public Reptila(boolean coada,TipMancare tipMancare, int nrPicioare, int varsta) {
+        super(tipMancare, nrPicioare, varsta, Sex.A);
+        this.coada = coada;
     }
-    public void faceCeva(){
 
-        System.out.println("Reptila face ceva...");
+    public boolean isCoada() {
+        return coada;
+    }
+
+    @Override
+    public final TipVedere tipVedere() {
+        return TipVedere.LATERALA;
     }
 }

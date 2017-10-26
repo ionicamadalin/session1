@@ -1,10 +1,12 @@
 package org.madalin.ierahie1;
 
 public class Leu extends Mamifer {
-    String coama;
 
-    public void atacaAnimale(){
+    public Leu(int varsta, Sex sex) {
+        super(TipMancare.CARNE, 4, varsta, sex);
+    }
 
-        System.out.println("Leul ataca alte animale pentru a se apara");
+    public TipVedere tipVedere() {
+        return TipVedere.IN_FATA;
     }
 }

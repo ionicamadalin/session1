@@ -5,9 +5,15 @@ public class Bicicleta extends Vehicul implements VehiculcuRoti {
     protected final String spite;
     protected String nume;
 
-    Bicicleta(String spite){  // constructor
+    Bicicleta(String spite){  // constructor cu parametrii
         this.spite=spite;
     }
+
+    public Bicicleta() {  // constructor implicit fara parametrii
+
+        spite = null;
+    }
+
     public void mergepestrada() {
 
     }
