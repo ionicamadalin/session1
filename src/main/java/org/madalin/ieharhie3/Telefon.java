@@ -10,7 +10,7 @@ public class Telefon {
   }
 
   public void poateComunica(){
-      System.out.println("Orice telefon poate comunica") ;// pur pentru exemplul dat
+      System.out.println("Orice ceas poate comunica") ;// pur pentru exemplul dat
     }
 
 
