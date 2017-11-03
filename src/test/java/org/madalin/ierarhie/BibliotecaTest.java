@@ -9,14 +9,9 @@ public class BibliotecaTest {
     private Biblioteca[] carti;
     @Test
     public void setare() throws Exception {
-        carti= new Biblioteca[]{
-                // cum creez un caiet, o biblioteca, si un raft ??
 
-        }
 
     }
-     public boolean seCiteste() throws Exception{
 
-    }
 
 }

@@ -1,31 +1,11 @@
 package org.madalin.ierarhie2;
 
-public class Bicicleta extends Vehicul implements VehiculcuRoti {
-
-    protected final String spite;
-    protected String nume;
-
-    Bicicleta(String spite){  // constructor cu parametrii
-        this.spite=spite;
+public class Bicicleta extends VehiculeSemiPropulsate {
+    public Bicicleta(int culoare, int nrLocuri, double vitezaMaxima) {
+        super(culoare, nrLocuri, vitezaMaxima);
     }
 
-    public Bicicleta() {  // constructor implicit fara parametrii
-
-        spite = null;
+    public TipTransport tipTransport() {
+        return TipTransport.USCAT;
     }
-
-    public void mergepestrada() {
-
-    }
-
-    public void mergepedrum() {
-
-    }
-
-    public void claxoneaza(){  // suprascriere ?
-
-        System.out.println("O bicicleta poate sa aiba un claxon");
-    }
-
 }
-

@@ -7,9 +7,8 @@ public class Smartphone extends TelefonMobil {
     private int diagonala;
     private int memRam;
     private boolean baterie=true;
-    public Smartphone(int numar, String denumire, String tehnologie, boolean OS, String caracteristiciSpeciale, int diagonala, int memRam,boolean baterie, boolean display) {
-        super(numar, denumire, tehnologie);
 
-
+    public Smartphone(int numar, String denumire, String tehnologie, boolean cuFir, String caracteristiciSpeciale) {
+        super(numar, denumire, tehnologie, cuFir, caracteristiciSpeciale);
     }
 }

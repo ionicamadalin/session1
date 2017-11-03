@@ -16,6 +16,6 @@ public class Pagina {
     }
 
     public boolean seCiteste(){ // nu stiu cum sa il folosesc ??????
-
+        return false;
     }
 }
