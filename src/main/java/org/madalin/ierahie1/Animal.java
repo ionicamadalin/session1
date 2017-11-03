@@ -25,7 +25,8 @@ public abstract class Animal {
         return this.sex!=Sex.A;
     }
 
-    public final boolean esteCarnivor(){
+    public final boolean esteCarnivor()
+    {
         return tipMancare==TipMancare.CARNE;
     }
 

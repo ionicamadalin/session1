@@ -3,10 +3,7 @@ package org.madalin.ierarhie2;
 public abstract class Autovehicul {
 
 
-
-
-
-        // ce carburant consuma un atomobil
+        // ce carburant consuma un automobil
         private TipCarburant tipCarburant;
         private int nrRoti;
         private int durataDeViata;
@@ -35,4 +32,4 @@ public abstract class Autovehicul {
     }
 
 
-}
+

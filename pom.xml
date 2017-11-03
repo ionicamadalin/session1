@@ -24,6 +24,12 @@
             <artifactId>junit</artifactId>
             <version>LATEST</version>
         </dependency>
+        <dependency>
+            <groupId>org.madalin</groupId>
+            <artifactId>Sesiune1</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
 </project>
