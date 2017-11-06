@@ -5,7 +5,12 @@ public class AutovehiculeMaritime extends VehiculeAutopropulsate {
         super(culoare, nrLocuri, vitezaMaxima);
     }
 
+
     public TipTransport tipTransport() {
         return TipTransport.APA;
     }
+
 }
+
+
+

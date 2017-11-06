@@ -7,7 +7,8 @@ public abstract class VehiculeAutopropulsate extends Vehicul {
 
     }
 
-    protected boolean areMotor() {
+    protected boolean areMotor()
+    {
         return true;
     }
 
