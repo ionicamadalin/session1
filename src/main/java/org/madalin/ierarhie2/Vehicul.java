@@ -34,14 +34,7 @@ public abstract class Vehicul {
 
     public abstract TipTransport tipTransport();
 
-    public  String toString(){
-        return "\n" + this.getClass().getSimpleName() + " are motor? " + this.areMotor() +
-                ", culoare: " + Culoare.get(this.getCuloare()).name().toLowerCase() +
-                ", nr locuri: " + this.getNrLocuri() +
-                ", viteza maxima: " + this.getVitezaMaxima() + " km/h"+
-                ", tip transport " + this.tipTransport().name()
-                ;
-    }
+
 
 
 }

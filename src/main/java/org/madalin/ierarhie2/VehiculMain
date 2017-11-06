@@ -1,6 +1,7 @@
-package org.madalin.ierarhie2;
 
-public class VehiculMain {
+//package org.madalin.ierarhie2;
+
+/*public class VehiculMain {
     public static void main(String[] args) {
         Vehicul vehicul=new Drona(Culoare.GALBEN.getCod(),0,50);
         System.out.print(vehicul);
@@ -20,5 +21,6 @@ public class VehiculMain {
             }
         };
         System.out.print(vehicul);
-    }
-}
+    }*/
+//}
+
