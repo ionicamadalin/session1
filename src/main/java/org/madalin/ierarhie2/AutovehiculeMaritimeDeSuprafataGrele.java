@@ -8,7 +8,7 @@ public class AutovehiculeMaritimeDeSuprafataGrele extends AutovehiculeMaritimeDe
     }
 
     public AutovehiculeMaritimeDeSuprafataGrele(int culoare, int nrLocuri, double vitezaMaxima, TipNavigare tipNavigare, int greuate) {
-        super(culoare, nrLocuri, vitezaMaxima, tipNavigare.SUPRAFATA);
+        super(culoare, nrLocuri, vitezaMaxima, tipNavigare.SUPRAFATA,TipCarburant.MOTORINA);
         this.greuate=greuate;
 
     }

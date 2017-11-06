@@ -33,6 +33,7 @@ public abstract class Vehicul {
     protected abstract boolean areMotor();
 
     public abstract TipTransport tipTransport();
+    public abstract TipCarburant tipCarburant();
 
 
 

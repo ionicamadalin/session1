@@ -10,11 +10,15 @@ public class VaporTest {
     public void creaza() throws Exception {
         vehicul=new Vapor(Culoare.GALBEN.getCod(),300,210,TipNavigare.SUPRAFATA,100000,true);
         print(vehicul);
-        vehicul=new BarcaCuMotor(Culoare.GALBEN.getCod(),2,20,TipNavigare.SUPRAFATA,100,true);
+        vehicul=new BarcaCuMotor(Culoare.GALBEN.getCod(),2,20,TipNavigare.SUPRAFATA,100,true,TipCarburant.MOTORINA);
         print(vehicul);
         vehicul=new Drona(Culoare.GALBEN.getCod(),0,50);
         print(vehicul);
         vehicul = new Trotineta(Culoare.VERDE.getCod());
+        print(vehicul);
+        vehicul = new Bicicleta(Culoare.VERDE.getCod(),2,60);
+        print(vehicul);
+        vehicul = new Elicopter(Culoare.VERDE.getCod(),2,150);
         print(vehicul);
 
     };
@@ -24,6 +28,7 @@ public class VaporTest {
         System.out.print(", nr locuri: "+ vehicul.getNrLocuri() );
         System.out.print(", viteza maxima? "+ vehicul.getVitezaMaxima()+" km/h" );
         System.out.print(", ce tip de transport are? "+ vehicul.tipTransport() );
+        System.out.print(", ce tip de carburant foloseste? "+ vehicul.tipCarburant() );
 
     }
 
