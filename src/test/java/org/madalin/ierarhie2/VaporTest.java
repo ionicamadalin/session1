@@ -20,6 +20,14 @@ public class VaporTest {
         print(vehicul);
         vehicul = new Elicopter(Culoare.VERDE.getCod(),2,150);
         print(vehicul);
+        vehicul= new Masina(Culoare.ROSU.getCod(),2,220,true);
+        print(vehicul);
+        vehicul= new Autocamion(Culoare.VERDE.getCod(),4,110,true);
+        print(vehicul);
+        vehicul= new Avion(Culoare.VERDE.getCod(),320, 540,TipCarburant.KEROSEN);
+        print(vehicul);
+        vehicul= new Tricicleta(Culoare.VERDE.getCod(),1,23,true,true);
+        print(vehicul);
 
     };
     private void print(Vehicul vehicul){
@@ -28,7 +36,7 @@ public class VaporTest {
         System.out.print(", nr locuri: "+ vehicul.getNrLocuri() );
         System.out.print(", viteza maxima? "+ vehicul.getVitezaMaxima()+" km/h" );
         System.out.print(", ce tip de transport are? "+ vehicul.tipTransport() );
-        System.out.print(", ce tip de carburant foloseste? "+ vehicul.tipCarburant() );
+        System.out.print(", ce tip de carburant foloseste? "+ vehicul.tipCarburant()+" "+ "Adevaratttt" );
 
     }
 

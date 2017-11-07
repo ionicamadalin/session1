@@ -13,6 +13,6 @@ public class AutovehiculTransoportUscat extends VehiculeAutopropulsate {
 
     @Override
     public TipCarburant tipCarburant() {
-        return tipCarburant();
+        return TipCarburant.BENZINA;
     }
 }

@@ -6,6 +6,7 @@ public class Bicicleta extends VehiculeSemiPropulsate {
     }
 
     public TipTransport tipTransport() {
+
         return TipTransport.USCAT;
     }
 
