@@ -31,12 +31,13 @@ public class VaporTest {
 
     };
     private void print(Vehicul vehicul){
+
         System.out.print("\n"+vehicul.getClass().getSimpleName() + " are motor? "+vehicul.areMotor() );
         System.out.print(", culoare: "+Culoare.get(vehicul.getCuloare()).name().toLowerCase() );
         System.out.print(", nr locuri: "+ vehicul.getNrLocuri() );
         System.out.print(", viteza maxima? "+ vehicul.getVitezaMaxima()+" km/h" );
         System.out.print(", ce tip de transport are? "+ vehicul.tipTransport() );
-        System.out.print(", ce tip de carburant foloseste? "+ vehicul.tipCarburant()+" "+ "Adevaratttt" );
+        System.out.print(", ce tip de carburant foloseste? "+ vehicul.tipCarburant());
 
     }
 

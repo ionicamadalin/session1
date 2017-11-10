@@ -20,7 +20,7 @@ public class AutovehiculTest {
         System.out.print("\n"+vehicul.getClass().getSimpleName() + " are motor? "+vehicul.areMotor() );
         System.out.print(", culoare: "+Culoare.get(vehicul.getCuloare()).name().toLowerCase() );
         System.out.print(", nr locuri: "+ vehicul.getNrLocuri() );
-        System.out.print(", viteza maxima? "+ vehicul.getVitezaMaxima()+" km/h" );
+
     }
 
 }
