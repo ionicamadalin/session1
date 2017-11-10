@@ -22,5 +22,7 @@ public class DispozitivDeComunicareTest {
         System.out.println("este portabil ?"+ " " + dispozitivDeComunicare.isPortabilitate()+" ");
         System.out.println("este electric ?"+" "+dispozitivDeComunicare.esteElectric());
         System.out.println("ce capacitate are ?"+" "+dispozitivDeComunicare.getCapacitateDb()+" "+"dB");
+
+
     }
 }
