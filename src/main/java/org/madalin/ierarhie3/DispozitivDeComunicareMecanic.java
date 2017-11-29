@@ -7,7 +7,8 @@ public class DispozitivDeComunicareMecanic extends DispozitivDeComunicare {
         super(culoare, dimensiune, portabilitate, capacitateDb);
     }
 
-    protected boolean esteElectric() {
+    protected boolean esteElectric()
+    {
         return false;
     }
 
